@@ -19,4 +19,4 @@ Either using the new weights or original cellpose weights based on various celld
 ```
 	train_maskrcnn.ipynb
 ```
-More details and specifications can be found in the respective notebooks. For results, see the presentation file.
+More details and specifications can be found in the respective notebooks. For a summary of the results, see the `presentation.pdf` file.
