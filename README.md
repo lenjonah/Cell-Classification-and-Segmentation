@@ -1,4 +1,4 @@
-# Cell-Classification-and-Segmentation
+# Cell Classification and Segmentation
 
 Two convolutional neural networks are finetuned for the classification and segmentation of different cell types in microscope images. Code originally created during an internship at the the Institute of Developmental Genetics at the Helmholtz Zentrum Munich in 2021. 
 
