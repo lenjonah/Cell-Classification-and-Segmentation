@@ -6,7 +6,7 @@ The workflow is as follows:
 
 1. Obtain two-channel (nuclei and cytoplasm) microscope images of two different cell types (HEK and N2a).
 2. Convert the Biodate file output from the microscope to .png images using, e.g., Fiji image. Note that in this conversion the two channels (nuclei and cytoplasm) have to be combined in the right color channels (blue and green).
-3. Train the [cellpose model](https://github.com/MouseLand/cellpose) for the segmentation of the cells. For that, training data have to be manually segmented by hand. Here, it proved very easy to use the GUI provided by the cellpose developers. Then, the network can be trained using the notebook
+3. Train the [cellpose model](https://github.com/MouseLand/cellpose) (a U-net model) for the segmentation of the cells. For that, training data have to be manually segmented by hand. Here, it proved very easy to use the GUI provided by the cellpose developers. Then, the network can be trained using the notebook
 ```   
 	train_cellpose.ipynb
 ```
