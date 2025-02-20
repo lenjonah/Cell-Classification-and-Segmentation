@@ -17,4 +17,4 @@ The workflow is as follows:
    
    In this format, the images can finally be used to train the MASK-RCNN model for segmentation and classification using the notebook `train_maskrcnn.ipynb`.
    
-More details and specifications can be found in the respective notebooks. Note that during my internship this was only a proof-of-principle study. Spending more time on this project and using e.g. hyperparameter searches and data augmentation techniques could definitely improve the performance of the model. For a general introduction to convolutional neural networks and a summary of the results, see the `presentation.pdf` file.
+More details and specifications can be found in the respective notebooks. Note that during my internship this was only a proof-of-principle study. Spending more time on this project and using e.g. hyperparameter searches and data augmentation techniques could definitely improve the performance of the models. For a general introduction to convolutional neural networks and a summary of the results, see the `presentation.pdf` file.
