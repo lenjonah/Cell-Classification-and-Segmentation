@@ -12,14 +12,15 @@ The workflow is as follows:
 ```   
 	train_cellpose.ipynb
 ```
-Either using the new weights or the generalist cellpose weights the cellpose algorithm can be run for segmentation using the above notebook. The corresponding output consists of a binary file with a mask for each detected cell. 
+   Either using the new weights or the generalist cellpose weights the cellpose algorithm can be run for segmentation using the above notebook. The corresponding output consists of a binary file with a mask 
+   for each detected cell. 
 
 5. *Classification:* Based on the segmented images containing only one cell type, respectively, the [MASK-RCNN](https://github.com/matterport/Mask_RCNN) model can be trained for segmentation and classification of mixed images. Using the annotation files generated using the cellpose model, the .json annotation files for the MASK-RCNN model can be created using the notebook
 ```
 	cells_to_coco.ipynb
 ```
-In this format, the images can finally be used to train the MASK-RCNN model for segmentation and classification using the notebook 
+   In this format, the images can finally be used to train the MASK-RCNN model for segmentation and classification using the notebook 
 ```
 	train_maskrcnn.ipynb
 ```
-More details and specifications can be found in the respective notebooks. For a general introduction to convolutional neural networks and a summary of the results, see the `presentation.pdf` file.
+   More details and specifications can be found in the respective notebooks. For a general introduction to convolutional neural networks and a summary of the results, see the `presentation.pdf` file.
